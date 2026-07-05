@@ -106,6 +106,7 @@ img { max-width: 100%; display: block; }
 }
 .hud--top { top: 0; left: 0; right: 0; padding: clamp(1rem, 3vw, 1.6rem) var(--gutter); justify-content: space-between; }
 .hud--foot { bottom: 0; left: 0; right: 0; padding: clamp(0.9rem, 2.5vw, 1.4rem) var(--gutter); justify-content: space-between; }
+.hud--foot a { text-decoration: underline; text-underline-offset: 2px; }
 
 .wordmark {
   font-family: var(--f-display);
